@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Header from "./header/header.jsx";
+import Footer from "./footer/footer.jsx";
 //routes
 import Index from "./routes/index/index.jsx";
 import Sponsorship from "./routes/sponsorship/sponsorship.jsx";
@@ -51,6 +52,8 @@ function App() {
           element={<Contact />}
         />
       </Routes>
+
+      <Footer />
     </React.Fragment>
   );
 }

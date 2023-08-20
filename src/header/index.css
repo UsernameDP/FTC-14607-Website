@@ -1,0 +1,7 @@
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+    .underline-transition {
+        @apply after:w-full -translate-y-0.5 font-semibold
+    }
+}
