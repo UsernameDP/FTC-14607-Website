@@ -2,9 +2,8 @@
 
 ## Setup
 
-`npm install` - installs all nessesary libraries mentioned in _package.json_
-`npm run dev` - run application in dev mode
-`npm start` - run application
+- `npm install` - installs all nessesary libraries mentioned in _package.json_
+- `npm run dev` - run application in dev/test mode
 
 ## TODO
 
