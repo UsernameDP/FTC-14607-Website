@@ -11,16 +11,21 @@ Make sure you have node & npm installed. You can download them from [here](https
 
 ### Components (Global-Reuseable Components)
 
-### header
+- [x] TitleSection
+- [x] CardGrid
+- [x] Card
 
-- header
+### header & footer
+
+- [x] header
+- [x] footer
 
 ### routes
 
-- index
-- sponsorship
-- team
-- robots
-- growing-up-with-robots
-- outreach
-- contact
+- [ ] index
+- [ ] sponsorship
+- [ ] team
+- [ ] robots
+- [ ] growing-up-with-robots
+- [ ] outreach
+- [ ] contact
