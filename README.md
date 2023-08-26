@@ -22,10 +22,11 @@ Make sure you have node & npm installed. You can download them from [here](https
 
 ### routes
 
-- [ ] index
-- [ ] sponsorship
+- [x] index
+- [x] sponsorship
 - [ ] team
-- [ ] robots
-- [ ] growing-up-with-robots
-- [ ] outreach
+- [ ] about
+- [x] robots
+- [x] growing-up-with-robots
+- [x] outreach
 - [ ] contact

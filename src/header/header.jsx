@@ -12,8 +12,8 @@ function Header() {
   ];
 
   return (
-    <header className="left-0 right-0 top-0 z-10 bg-white relative shadow-sm w-full">
-      <section className="flex flex-row mx-auto max-w-6xl items-center justify-between p-4 text-black">
+    <header className="left-0 right-0 top-0 z-10 bg-white absolute shadow-sm w-full">
+      <section className="flex flex-row mx-auto max-w-8xl items-center justify-between p-4 text-black">
         <a
           href="/"
           className="text-3xl"
@@ -28,7 +28,7 @@ function Header() {
               <a
                 href={reference.toLowerCase()}
                 key={index}
-                className="hover:underline-transition font-normal relative transition-all druation-1000 after:absolute after:-left-0 after:top-8 after:h-0.5 after:w-0 after:bg-FTC_RED after:transition-all after:duration-500 after:content-['']"
+                className="hover:underline-transition hover:font-semibold hover:-translate-y-1 font-normal relative transition-all druation-1000 underline-props after:bg-FTC_RED after:bottom-0"
               >
                 {reference.replace(/-/g, " ")}
               </a>

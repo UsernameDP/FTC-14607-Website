@@ -1,0 +1,10 @@
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+    .underline-props { 
+        @apply after:absolute after:left-0 after:h-0.5 after:w-0 after:transition-all after:duration-500 after:content-['']
+    }
+    .underline-transition {
+        @apply after:w-full
+    }
+}
