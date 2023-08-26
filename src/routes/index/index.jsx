@@ -18,11 +18,11 @@ function Index() {
         <img
           src={teampic}
           alt="teampic"
-          className="w-1/2"
+          className="w-1/2 h-1/2 aspect-auto"
         />
       </TitleSection>
 
-      <CardGrid>
+      <CardGrid col={4}>
         <Card
           name={"Perspecta Case Study"}
           content={
