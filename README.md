@@ -22,7 +22,7 @@ Make sure you have node & npm installed. You can download them from [here](https
 
 ### routes
 
-- [x] index
+- [ ] index
 - [x] sponsorship
 - [ ] team
 - [ ] about
