@@ -3,6 +3,8 @@ import React from "react";
 import TitleSection from "../../components/titleSection";
 import TeamCardGrid from "./components/teamCardGrid";
 import TeamCard from "./components/teamCard";
+import RetiredTeamCardGrid from "./components/retiredTeamCardGrid";
+import RetiredTeamCard from "./components/retiredTeamCard";
 
 function Team() {
   return (
@@ -22,9 +24,18 @@ function Team() {
           content={
             "Evelyn is a senior in her third year of FIRST, joining after discovering CAD in a summer camp held by Team 14607. Evelyn enjoys programming and CAD-ing as well as the challenge and learning opportunities that FTC has to offer. Not only is she interested in robotics, but she is also an avid fan of National Geographic magazines (she collects them!) and physics (especially astrophysics!!). Evelyn enjoys art and is an editorial artist for tjTODAY– TJ’s student newspaper. She looks forward to diving deeper into programming."
           }
-          image={"img/routes/team/evelyn.jpg"}
+          image={"img/routes/team/members/evelyn.jpg"}
         />
       </TeamCardGrid>
+
+      <RetiredTeamCardGrid>
+        <RetiredTeamCard
+          name={"Winston Gan"}
+          role={"Captain"}
+          image={"img/routes/team/members/winston.jpg"}
+          github={"test"}
+        />
+      </RetiredTeamCardGrid>
     </React.Fragment>
   );
 }

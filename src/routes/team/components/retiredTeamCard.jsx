@@ -1,17 +1,20 @@
 import React from "react";
 
-function TeamCard({ name, role, content, image, github }) {
+function RetiredTeamCard({ name, role, image, github }) {
   return (
-    <div className="bg-FTC_LIGHT_GRAY p-6 flex flex-col gap-5 rounded-sm">
-      <section className="flex flex-row gap-8">
+    <div className="flex">
+      <section className="flex gap-5">
         <img
           src={image}
           alt={image}
-          className="w-24 rounded-full"
+          className="rounded-full w-16 h-16"
         />
         <div className="flex flex-col">
           <p className="text-2xl">{name}</p>
-          <p className="text-base text-FTC_LIGHTER_GRAY font-medium">{role}</p>
+          <p className="text-base text-FTC_LIGHTER_GRAY font-medium">
+            {"Previous " + role.trim()}
+          </p>
+
           {github != undefined ? (
             <a
               className="text-xl text-FTC_RED"
@@ -23,11 +26,8 @@ function TeamCard({ name, role, content, image, github }) {
           ) : null}
         </div>
       </section>
-      <section className="text-lg text-FTC_LIGHTER_GRAY font-light">
-        {content}
-      </section>
     </div>
   );
 }
 
-export default TeamCard;
+export default RetiredTeamCard;
