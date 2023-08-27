@@ -1,4 +1,4 @@
-@import "./components/public/css/index.css";
+@import "../public/css/footer/index.css";
 
 @tailwind base;
 @tailwind components;

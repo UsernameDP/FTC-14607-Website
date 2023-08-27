@@ -1,6 +1,4 @@
 import React from "react";
-import GithubSvg from "./public/svg/github.svg";
-import TwitterSvg from "./public/svg/Twitter.svg";
 
 function Footer() {
   return (
@@ -23,7 +21,7 @@ function Footer() {
             target="_blank"
           >
             <img
-              src={GithubSvg}
+              src={"svg/footer/github.svg"}
               alt="github_svg"
               className="w-7"
             />
@@ -33,7 +31,7 @@ function Footer() {
             target="_blank"
           >
             <img
-              src={TwitterSvg}
+              src={"svg/footer/twitter.svg"}
               alt="github_svg"
               className="w-7"
             />

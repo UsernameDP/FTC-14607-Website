@@ -1,7 +1,4 @@
 import React from "react";
-
-//img
-import titleSectionImg from "./public/img/robots_titleSection.png";
 //data
 import cardData from "./public/data/cards.json";
 //components
@@ -17,7 +14,7 @@ function Robots() {
         content={
           "We work hard to create high tech robots for FTC competitions."
         }
-        image={titleSectionImg}
+        image={"img/routes/robots/robots_titleSection.png"}
       />
 
       <InfoCardGrid>

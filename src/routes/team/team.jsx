@@ -1,13 +1,8 @@
 import React from "react";
-//img
-import titleSectionImg from "./public/img/team_titleSection.jpg";
 //components
 import TitleSection from "../../components/titleSection";
 import TeamCardGrid from "./components/teamCardGrid";
 import TeamCard from "./components/teamCard";
-
-//Team member images
-import evelyn_li from "./public/img/members/evelyn.jpg";
 
 function Team() {
   return (
@@ -17,7 +12,7 @@ function Team() {
         content={
           "Our team of highly skilled thinkers, innovators, and engineers."
         }
-        image={titleSectionImg}
+        image={"img/routes/team/team_titleSection.jpg"}
       />
 
       <TeamCardGrid>
