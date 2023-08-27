@@ -13,6 +13,8 @@ import Gur from "./routes/growing-up-with-robots/gur.jsx";
 import Outreach from "./routes/outreach/outreach.jsx";
 import Contact from "./routes/contact/contact.jsx";
 
+import InvalidRoute from "./routes/404/404.jsx";
+
 function App() {
   return (
     <React.Fragment>
@@ -50,6 +52,11 @@ function App() {
         <Route
           path="/contact"
           element={<Contact />}
+        />
+
+        <Route
+          path="*"
+          element={<InvalidRoute />}
         />
       </Routes>
 
