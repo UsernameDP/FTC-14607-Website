@@ -26,7 +26,7 @@ function Header() {
           {navReferences.map((reference, index) => {
             return (
               <a
-                href={reference.toLowerCase()}
+                href={`/${reference.toLowerCase()}`}
                 key={index}
                 className="hover:underline-transition hover:font-semibold hover:-translate-y-1 font-normal relative transition-all druation-1000 underline-props after:bg-FTC_RED after:bottom-0"
               >

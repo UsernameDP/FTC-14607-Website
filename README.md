@@ -22,11 +22,16 @@ Make sure you have node & npm installed. You can download them from [here](https
 
 ### routes
 
-- [ ] index
+- [x] index
 - [x] sponsorship
-- [ ] team
-- [ ] about
+- [x] team
+- [x] about
 - [x] robots
 - [x] growing-up-with-robots
 - [x] outreach
-- [ ] contact
+- [x] contact
+
+### Final Fixes
+
+- [ ] Get all images neccesary in .md files
+- [ ] Sponsorship Packet PDF

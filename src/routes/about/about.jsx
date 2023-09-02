@@ -1,7 +1,14 @@
 import React from "react";
+import PublicMarkdown from "../../components/publicMarkdown";
 
 function About() {
-  return <div></div>;
+  return (
+    <PublicMarkdown
+      underWhichPublicDir={"/md/routes/"}
+      parentRoute={"about/"}
+      paramRouteName={"*"}
+    />
+  );
 }
 
 export default About;

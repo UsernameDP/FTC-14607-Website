@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "../../../components/section";
 
-function RetiredTeamCardGrid({ children }) {
+function RetiredMembersGrid({ children }) {
   return (
     <Section>
       <div className="grid grid-cols-1 md:grid-cols-3 py-20 w-full gap-10">
@@ -11,4 +11,4 @@ function RetiredTeamCardGrid({ children }) {
   );
 }
 
-export default RetiredTeamCardGrid;
+export default RetiredMembersGrid;

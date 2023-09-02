@@ -1,13 +1,13 @@
 import React from "react";
 
-function RetiredTeamCard({ name, role, image, github }) {
+function RetiredMemberCard({ name, role, image, github }) {
   return (
     <div className="flex">
       <section className="flex gap-5">
         <img
           src={image}
           alt={image}
-          className="rounded-full w-16 h-16"
+          className="rounded-full w-18 h-18 object-cover"
         />
         <div className="flex flex-col">
           <p className="text-2xl">{name}</p>
@@ -30,4 +30,4 @@ function RetiredTeamCard({ name, role, image, github }) {
   );
 }
 
-export default RetiredTeamCard;
+export default RetiredMemberCard;

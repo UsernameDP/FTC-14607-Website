@@ -6,6 +6,8 @@ import TitleSection from "../../components/titleSection";
 import InfoCard from "../../components/infoCard";
 import InfoCardGrid from "../../components/infoCardGrid";
 
+import Accomplishments from "./components/accomplishments";
+
 function Index() {
   return (
     <React.Fragment>
@@ -29,6 +31,8 @@ function Index() {
           );
         })}
       </InfoCardGrid>
+
+      <Accomplishments />
     </React.Fragment>
   );
 }

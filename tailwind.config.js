@@ -20,8 +20,14 @@ export default {
       maxWidth: {
         "8xl": "88rem",
         "9xl": "96rem"
+      },
+      width: {
+        18: "4.5rem"
+      },
+      height: {
+        18: "4.5rem"
       }
     }
   },
-  plugins: []
+  plugins: [require("@tailwindcss/typography")]
 };

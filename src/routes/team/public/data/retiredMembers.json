@@ -1,1 +1,83 @@
-[]
+[
+    {
+        "name" : "Winston Gan",
+        "role" : "Captain",
+        "image" : "img/routes/team/members/winston.jpg"
+    },
+    {
+        "name" : "AJ Seo",
+        "role" : "Captain",
+        "image" : "img/routes/team/members/aj.jpg",
+        "github" : "https://github.com/aseo921"
+    },
+    {
+        "name" : "Charlie Wu",
+        "role" : "Captain",
+        "image" : "img/routes/team/members/charlie.jpg",
+        "github" : "https://github.com/cwu159"
+    },
+    {
+        "name" : "Dev Patel",
+        "role" : "Team Member",
+        "image" : "img/routes/team/members/charlie.jpg",
+        "github" : "https://github.com/moonbeam87"
+    },
+    {
+        "name" : "Jacob Consalvi",
+        "role" : "Team Member",
+        "image" : "img/routes/team/members/jacob.jpg"
+    },
+    {
+        "name" : "Jason Wang",
+        "role" : "Team Member",
+        "image" : "img/routes/team/members/jason.jpg",
+        "github" : "https://github.com/jsonW0"
+    },
+    {
+        "name" : "Kari Naga",
+        "role" : "Team Member",
+        "image" : "img/routes/team/members/kari.jpg"
+    },
+    {
+        "name" : "Krish Patel",
+        "role" : "Team Member",
+        "image" : "img/routes/team/members/jason.jpg",
+        "github" : "https://github.com/krishpatel1077"
+    },
+    {
+        "name" : "Neil Mehra",
+        "role" : "Team Member",
+        "image" : "img/routes/team/members/neil.jpg"
+    },
+    {
+        "name" : "Punav Kheterpal",
+        "role" : "Team Member",
+        "image" : "img/routes/team/members/punav.jpg"
+    },
+    {
+        "name" : "Reevu Adakroy",
+        "role" : "Team Member",
+        "image" : "img/routes/team/members/reevu.jpg"
+    },
+    {
+        "name" : "Johnathan Tong",
+        "role" : "Team Member",
+        "image" : "img/routes/team/members/johnathan.jpg",
+        "github" : "https://github.com/krishpatel1077"
+    },
+    {
+        "name" : "Maribelle",
+        "role" : "Team Member",
+        "image" : "img/routes/team/members/maribelle.jpg"
+    },
+    {
+        "name" : "Alan Jiang",
+        "role" : "Team Member",
+        "image" : "img/routes/team/members/alan.jpg"
+    },
+    {
+        "name" : "Thrisha Sakamuri",
+        "role" : "Team Member",
+        "image" : "img/routes/team/members/thrisha.jpg"
+    }
+]

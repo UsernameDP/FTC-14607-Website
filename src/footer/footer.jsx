@@ -21,7 +21,7 @@ function Footer() {
             target="_blank"
           >
             <img
-              src={"svg/footer/github.svg"}
+              src={"/svg/footer/github.svg"}
               alt="github_svg"
               className="w-7"
             />
@@ -31,7 +31,7 @@ function Footer() {
             target="_blank"
           >
             <img
-              src={"svg/footer/twitter.svg"}
+              src={"/svg/footer/twitter.svg"}
               alt="github_svg"
               className="w-7"
             />
