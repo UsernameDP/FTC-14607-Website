@@ -6,7 +6,7 @@ function InfoCard({ name, content, href }) {
       <div>
         <a
           href={href}
-          className="relative text-xl xl:text-2xl font-medium 2xl:font-semibold text-FTC_RED transition-all underline-props hover:brightness-75 hover:underline-transition after:bg-FTC_RED after:-bottom-1"
+          className="relative text-2xl font-medium 2xl:font-semibold text-FTC_RED transition-all underline-props hover:brightness-75 hover:underline-transition after:bg-FTC_RED after:-bottom-1"
         >
           {name}
         </a>
