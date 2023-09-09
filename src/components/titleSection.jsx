@@ -6,10 +6,10 @@ function TitleSection({ name, content, image }) {
     <Section>
       <section className="flex flex-col-reverse md:flex-row w-full h-3/6 mx-auto py-28 p-10 align-middle gap-0 md:gap-10 xl:gap-28">
         <section className="text-left flex flex-col gap-5">
-          <h2 className="text-5xl md:text-5xl xl:text-6xl  font-Roboto font-medium max-w-lg pt-14">
+          <h2 className="text-5xl md:text-5xl xl:text-6xl font-Roboto font-medium max-w-lg pt-14">
             {name}
           </h2>
-          <p className="max-w-lg text-xl md:text-lg xl:text-xl text-FTC_GREY font-light">
+          <p className="max-w-lg text-xl md:text-base xl:text-lg text-FTC_GREY font-light">
             {content}
           </p>
         </section>

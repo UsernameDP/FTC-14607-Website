@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "World Championship Team",
+        "content" : " Our team won two awards at the FIRST World Championship in 2019, along with numerous other accolades at the regional and state levels."
+    },
+    {
+        "name" : "Sustainability",
+        "content" : "All members of our team are trained in Design & CAD, Programming, Manufacturing, and are dedicated STEM activists."
+    },
+    {
+        "name" : "Cutting Edge Technology",
+        "content" : "Our team always uses cutting edge technology including CAD stress analysis and simulations, tensorflow, AWS, and more. Feel free to check out our GitHub Repository with robot code at https://github.com/2024eli/FTC_14607"
+    }
+]
