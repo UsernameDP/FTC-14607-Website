@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 //general components
-import PublicMarkdown from "./components/publicMarkDown.jsx";
+import PublicMarkdown from "./components/publicMarkdown.jsx";
 
 //root components
 import Header from "./header/header.jsx";
