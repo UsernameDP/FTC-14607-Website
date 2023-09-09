@@ -1,6 +1,6 @@
 # Weyanoke Outreach!
 
-![Image](/images/illustrations/weyanoke1.jpg)
+![Image](/img/routes/gur/weyanoke/weyanoke1.jpg)
 
 ### Weyanoke Outreach
 

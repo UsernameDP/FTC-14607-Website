@@ -35,7 +35,7 @@ function PublicMarkdown({
 
   return (
     <Section>
-      <article className="flex flex-col px-10 prose lg:prose-xl prose-h1:font-medium prose-h2:font-normal prose-h3:font-normal prose-h4:font-normal prose-h5:normal prose-h6:font-normal prose-p:font-normal prose-p:text-lg prose-p:text-FTC_LIGHTER_GRAY">
+      <article className="flex flex-col px-10 prose lg:prose-xl prose-h1:font-medium prose-h2:font-normal prose-h3:font-normal prose-h4:font-normal prose-h5:normal prose-h6:font-normal prose-p:font-normal prose-p:text-lg prose-p:text-FTC_LIGHTER_GRAY prose-a:text-FTC_RED prose-a:font-normal">
         <ReactMarkdown>{infoDoc}</ReactMarkdown>
         <p></p>
       </article>
