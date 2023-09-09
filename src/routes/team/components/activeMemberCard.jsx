@@ -26,9 +26,7 @@ function ActiveMemberCard({ name, role, content, image, github }) {
             ) : null}
           </div>
         </section>
-        <section className="text-lg text-FTC_LIGHTER_GRAY font-light">
-          {content}
-        </section>
+        <section className="text-base text-FTC_LIGHTER_GRAY">{content}</section>
       </div>
     </div>
   );
