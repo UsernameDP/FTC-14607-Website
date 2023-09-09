@@ -33,5 +33,6 @@ Make sure you have node & npm installed. You can download them from [here](https
 
 ### Final Fixes
 
-- [ ] Get all images neccesary in .md files
-- [ ] Sponsorship Packet PDF
+- [x] Get all images neccesary in .md files
+- [x] Sponsorship Packet PDF
+- [ ] Update CSS for 1920 x 1080

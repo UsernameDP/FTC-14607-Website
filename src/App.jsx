@@ -10,6 +10,7 @@ import Footer from "./footer/footer.jsx";
 //routes
 import Index from "./routes/index/index.jsx";
 import Sponsorship from "./routes/sponsorship/sponsorship.jsx";
+import SponsorshipPacket from "./routes/sponsorship/sponsorship-packet.jsx";
 import Team from "./routes/team/team.jsx";
 import About from "./routes/about/about.jsx";
 import Robots from "./routes/robots/robots.jsx";
@@ -34,6 +35,10 @@ function App() {
         <Route
           path="/sponsorship"
           element={<Sponsorship />}
+        />
+        <Route
+          path="/sponsorship/sponsorship-packet"
+          element={<SponsorshipPacket />}
         />
         <Route
           path="/sponsorship/:infoDoc"
@@ -74,7 +79,7 @@ function App() {
           }
         />
 
-        {/* Gur */}
+        {/* Growing Up With Robots */}
         <Route
           path="/growing-up-with-robots"
           element={<Gur />}
@@ -84,7 +89,7 @@ function App() {
           element={
             <PublicMarkdown
               underWhichPublicDir={"/md/routes/"}
-              parentRoute={"gur/"}
+              parentRoute={"growing-up-with-robots/"}
               paramRouteName={"infoDoc"}
             />
           }

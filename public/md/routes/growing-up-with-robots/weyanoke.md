@@ -1,6 +1,6 @@
 # Weyanoke Outreach!
 
-![Image](/img/routes/gur/weyanoke/weyanoke1.jpg)
+![Image](/img/routes/growing-up-with-robots/weyanoke/weyanoke1.jpg)
 
 ### Weyanoke Outreach
 
