@@ -6,8 +6,6 @@ function Header() {
   const location = useLocation();
 
   const toggleMobileMenu = () => {
-    console.log("hi");
-
     setMobileMenu(!mobileMenuIsOpen);
   };
 
@@ -57,10 +55,10 @@ function Header() {
             className="relative md:hidden flex w-8 h-8"
           >
             <div
-              className={`absolute transition-transform duration-500 content-[''] top-4 bg-FTC_RED w-full rounded-sm before:transition-all before:duration-500 before:absolute before:content-[''] before:left-0 before:-translate-y-2.5 before:w-full before:h-1 before:rounded-sm before:bg-FTC_RED after:transition-all after:duration-500 after:absolute after:content-[''] after:left-0 after:translate-y-2.5 after:w-full after:h-1 after:rounded-sm after:bg-FTC_RED   ${
+              className={`absolute transition-transform duration-500 content-[''] top-4 bg-FTC_RED w-full rounded-sm before:transition-all before:duration-500 before:absolute before:content-[''] before:left-0 before:w-full before:h-1 before:rounded-sm before:bg-FTC_RED after:transition-all after:duration-500 after:absolute after:content-[''] after:left-0 after:w-full after:h-1 after:rounded-sm after:bg-FTC_RED   ${
                 mobileMenuIsOpen
                   ? "h-0 rotate-180 before:translate-y-0 after:translate-y-0 before:rotate-45 after:-rotate-45"
-                  : "h-1"
+                  : "h-1 before:-translate-y-2.5 after:translate-y-2.5 "
               }`}
             ></div>
           </button>
