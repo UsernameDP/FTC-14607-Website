@@ -16,7 +16,7 @@ function Index() {
         content={
           "We are FIRST Tech Challenge Team 14607, Robot Uprising, from Thomas Jefferson High School for Science and Technology, in Alexandria, VA. This is our sixth year as a team in FIRST Robotics, and we are excited to compete in the FIRST Tech Challenge."
         }
-        image={"img/routes/index/index_titleSection.png"}
+        image={"/img/routes/index/index_titleSection.png"}
       />
 
       <InfoCardGrid>

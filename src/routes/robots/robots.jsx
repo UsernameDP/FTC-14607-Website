@@ -14,7 +14,7 @@ function Robots() {
         content={
           "We work hard to create high tech robots for FTC competitions."
         }
-        image={"img/routes/robots/robots_titleSection.png"}
+        image={"/img/routes/robots/robots_titleSection.png"}
       />
 
       <InfoCardGrid>

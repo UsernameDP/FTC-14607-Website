@@ -13,7 +13,7 @@ function Club() {
         content={
           "The Competitive Robotics Club is an 8th period club founded in the 2022-23 school year at TJHSST."
         }
-        image={"img/routes/club/club_titleSection.jpg"}
+        image={"/img/routes/club/club_titleSection.jpg"}
       />
 
       <InfoCardGrid>
