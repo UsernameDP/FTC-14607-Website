@@ -4,8 +4,8 @@ import PublicMarkdown from "../../components/publicMarkdown";
 function About() {
   return (
     <PublicMarkdown
-      underWhichPublicDir={"/md/routes/"}
-      parentRoute={"about/"}
+      underWhichPublicDir={"md/routes"}
+      parentRoute={"about"}
       paramRouteName={"*"}
     />
   );
