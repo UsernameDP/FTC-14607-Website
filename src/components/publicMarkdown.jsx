@@ -15,7 +15,6 @@ function PublicMarkdown({
 
   const paramRouteInfo = useParams();
   const pathToMarkDown_inPublic = `/${underWhichPublicDir}/${parentRoute}/${paramRouteInfo[paramRouteName]}.md`;
-  console.log(pathToMarkDown_inPublic);
 
   useEffect(() => {
     fetch(pathToMarkDown_inPublic)
