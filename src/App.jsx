@@ -44,8 +44,8 @@ function App() {
           path="/sponsorship/:infoDoc"
           element={
             <PublicMarkdown
-              underWhichPublicDir={"/md/routes/"}
-              parentRoute={"sponsorship/"}
+              underWhichPublicDir={"md/routes"}
+              parentRoute={"sponsorship"}
               paramRouteName={"infoDoc"}
             />
           }
@@ -72,8 +72,8 @@ function App() {
           path="/robots/:infoDoc"
           element={
             <PublicMarkdown
-              underWhichPublicDir={"/md/routes/"}
-              parentRoute={"robots/"}
+              underWhichPublicDir={"md/routes"}
+              parentRoute={"robots"}
               paramRouteName={"infoDoc"}
             />
           }
@@ -88,8 +88,8 @@ function App() {
           path="/growing-up-with-robots/:infoDoc"
           element={
             <PublicMarkdown
-              underWhichPublicDir={"/md/routes/"}
-              parentRoute={"growing-up-with-robots/"}
+              underWhichPublicDir={"md/routes"}
+              parentRoute={"growing-up-with-robots"}
               paramRouteName={"infoDoc"}
             />
           }
@@ -104,8 +104,8 @@ function App() {
           path="/outreach/:infoDoc"
           element={
             <PublicMarkdown
-              underWhichPublicDir={"/md/routes/"}
-              parentRoute={"outreach/"}
+              underWhichPublicDir={"md/routes"}
+              parentRoute={"outreach"}
               paramRouteName={"infoDoc"}
             />
           }
@@ -120,8 +120,8 @@ function App() {
           path="/outreach/:infoDoc"
           element={
             <PublicMarkdown
-              underWhichPublicDir={"/md/routes/"}
-              parentRoute={"club/"}
+              underWhichPublicDir={"md/routes"}
+              parentRoute={"club"}
               paramRouteName={"infoDoc"}
             />
           }
