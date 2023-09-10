@@ -117,7 +117,7 @@ function App() {
           element={<Club />}
         />
         <Route
-          path="/outreach/:infoDoc"
+          path="/club/:infoDoc"
           element={
             <PublicMarkdown
               underWhichPublicDir={"md/routes"}
