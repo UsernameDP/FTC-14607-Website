@@ -14,7 +14,11 @@ function PublicMarkdown({
   const navigate = useNavigate();
 
   const paramRouteInfo = useParams();
-  const pathToMarkDown_inPublic = `/${underWhichPublicDir}/${parentRoute}/${paramRouteInfo[paramRouteName]}.md`;
+  const pathToMarkDown_inPublic = `/${underWhichPublicDir}/${parentRoute}${
+    paramRouteInfo[paramRouteName]
+      ? "/" + paramRouteInfo[paramRouteName] + ".md"
+      : ""
+  }`;
 
   useEffect(() => {
     fetch(pathToMarkDown_inPublic)
