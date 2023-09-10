@@ -3,67 +3,67 @@
         "name" : "Evelyn Li",
         "role" : "Captain",
         "content" : "Evelyn is a senior in her third year of FIRST, joining after discovering CAD in a summer camp held by Team 14607. Evelyn enjoys programming and CAD-ing as well as the challenge and learning opportunities that FTC has to offer. Not only is she interested in robotics, but she is also an avid fan of National Geographic magazines (she collects them!) and physics (especially astrophysics!!). Evelyn enjoys art and is an editorial artist for tjTODAY– TJ’s student newspaper. She looks forward to diving deeper into programming.",
-        "image" : "img/routes/team/members/evelyn.jpg"
+        "image" : "/img/routes/team/members/evelyn.jpg"
     },
     {
         "name" : "Akul Dixit",
         "role" : "Junior Captain",
         "content" : "Akul is a junior in his 3rd year of FTC. His first experiences with FIRST and robotics, in general, were in 1st grade when he saw his older brother build LEGO mindstorms robots in FLL, and he has been hooked to robotics ever since. He joined FTC team 14607 to join the unique community and gain new experiences in robotics. In addition to FTC, he likes to use CAD and 3D printers. In his free time, Akul likes to play basketball and video games.",
-        "image" : "img/routes/team/members/akul.jpg"
+        "image" : "/img/routes/team/members/akul.jpg"
     },
     {
         "name" : "Felix Howton",
         "role" : "Buissness and Outreach Lead",
         "content" : "Felix is a senior in his fourth year of FIRST. In 8th grade, he discovered his love for robotics on his middle school FTC team while designing, constructing, and driving his team’s robot. Felix joined the team to dive deeper into robotics and to help the community learn about STEM. He is on the school’s history bowl team and his class’s class council. Felix loves spending his free time playing various sports including soccer, basketball, and ultimate frisbee. He also enjoys reading, and playing video games.",
-        "image" : "img/routes/team/members/felix.jpg"
+        "image" : "/img/routes/team/members/felix.jpg"
     },
     {
         "name" : "Aiden Cheong",
         "role" : "Team Member",
         "content" : "Aiden is a senior in his 2nd year of FTC. He joined FTC team 14607 to join the unique community and gain new experiences in robotics. He found his passion for STEM through programming and got interested in robotics over the summer. In his free time, Aiden likes to play ice hockey and basketball. He also enjoys playing video games.",
-        "image" : "img/routes/team/members/aiden.jpg"
+        "image" : "/img/routes/team/members/aiden.jpg"
     },
     {
         "name" : "Tanvi Pedireddi",
         "role" : "Team Member",
         "content" : "Tanvi is a senior and this is her fifth year in FIRST, joining because of a Facebook post and an aspiring interest in robotics and coding. She is on the school’s Lincoln Douglas debate team, and her hobbies include coding, singing, and drawing. She is looking forward to junior year.",
-        "image" : "img/routes/team/members/tanvi.jpg"
+        "image" : "/img/routes/team/members/tanvi.jpg"
     },
     {
         "name" : "Shirdi Palle",
         "role" : "Team Member",
         "content" : "Shirdi is a sophmore in her fifth year at FIRST, being a part of her FLL team from 3rd-6th grade. She joined because of her love of robots and innovation projects. She discovered her passion for STEM when she was attending STEM fairs as an elementary school student. In addition to robotics, Shirdi plays basketball, was a board member of a middle school business club, and was part of her middle school Technology Student Association.",
-        "image" : "img/routes/team/members/shirdi.jpg"
+        "image" : "/img/routes/team/members/shirdi.jpg"
     },
     {
         "name" : "Rocco Zhang",
         "role" : "Team Member",
         "content" : "Rocco is a junior in his third year of FTC, joining for his interest in coding. He found his passion for STEM when he joined Science Olympiad in sixth and eighth grade, and wanted to experience FIRST’s unique community by joining the team. Rocco also enjoys participating in debate, swimming, and playing video games in his free time.",
-        "image" : "img/routes/team/members/rocco.jpg"
+        "image" : "/img/routes/team/members/rocco.jpg"
     },
     {
         "name" : "Lindsay Hwang",
         "role" : "Team Member",
         "content" : "Lindsay is a senior at TJHSST and this is her second year of FTC. She joined because of her interest in the programming aspect of robotics as well as seeing all the videos of the FIRST competitions. She enjoys programming and using CAD, and in her free time, she likes to run track, sing, and play lacrosse.",
-        "image" : "img/routes/team/members/lindsay.jpg"
+        "image" : "/img/routes/team/members/lindsay.jpg"
     },
     {
         "name" : "Anush Devkar",
         "role" : "Team Member",
         "content" : "Anush is a sophmore in his 2nd year of FTC. His first experience with FIRST was in 4th grade when he participated in FLL. His passion for robotics was rediscovered in 6th grade, when he participated in VEX Robotics. He was fortunate enough to have the robotic parts stationed at his house, so Anush was able to work on building the robot outside of meeting times as well. Since then, his love for robotics and coding only grew. In addition to FTC, he is a shadow for a non-profit organization who has helped over 22,000 people (PASTA), is a certified 2nd degree instructor in taekwondo, and is playing soccer.",
-        "image" : "img/routes/team/members/anush.jpg"
+        "image" : "/img/routes/team/members/anush.jpg"
     },
     {
         "name" : "Devin Park",
         "role" : "Team Member",
         "content" : "Devin is a sophmore at TJHSST and is in his 1st year of FTC. His first experience in FIRST was in 4th grade when he participated in FLL. Ever since, he loved to colaborate in teams and working together to create a final product. 9th grade, he participated in Botball robotics, and now, FTC. In his free time, he likes to study math , develop websites, and create simulations.",
-        "image" : "img/routes/team/members/devin.jpg",
+        "image" : "/img/routes/team/members/devin.jpg",
         "github" : "https://github.com/UsernameDP"
     },
     {
         "name" : "Kara",
         "role" : "Team Member",
         "content" : "Working with robotics teams and several game challenges over the years, Kara, now a sophmore, has done so due to her interests in STEM and her love for the dynamics of robotics competitons. As part of her FIRST year of FTC, she is excited to contribute her skills to create fierce game-changing robots and to inspire others to do so too.",
-        "image" : "img/routes/team/members/kara.jpg"
+        "image" : "/img/routes/team/members/kara.jpg"
     }
 ]
