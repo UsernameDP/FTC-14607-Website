@@ -64,7 +64,7 @@ function Header() {
           </button>
 
           <nav
-            className={`fixed overflow-hidden transition-all duration-500 left-0 top-16 bottom-0 w-screen bg-white flex flex-col items-center justify-center gap-6 text-FTC_RED text-4xl ${
+            className={` text-center fixed overflow-hidden transition-all duration-500 left-0 top-16 bottom-0 w-screen bg-white flex flex-col items-center justify-center gap-6 text-FTC_RED text-4xl ${
               mobileMenuIsOpen ? "h-full" : "h-0"
             }`}
           >
