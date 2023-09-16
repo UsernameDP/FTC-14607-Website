@@ -4,6 +4,7 @@ import InfoCardGrid from "../../components/infoCardGrid";
 import InfoCard from "../../components/infoCard";
 
 import cardData from "./public/data/cards.json";
+import Section from "../../components/section";
 
 function Club() {
   return (
@@ -27,6 +28,11 @@ function Club() {
           );
         })}
       </InfoCardGrid>
+      <Section>
+        <br></br><i>{
+        "Created by Winston Gan ('23) and Evelyn Li ('24). Headed by current Captain and Junior Captain"
+        }</i>
+      </Section>
     </React.Fragment>
   );
 }
