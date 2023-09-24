@@ -5,7 +5,7 @@ import AccomplishmentCard from "./accomplishmentCard";
 
 function Accomplishments() {
   return (
-    <section className="w-full  py-20 px-28 flex-auto">
+    <section className="w-full  py-20 flex-auto">
       <InfoCardGrid>
         {accomplishmentCardData.map((data, index) => {
           return (
