@@ -56,7 +56,7 @@
     {
         "name" : "Devin Park",
         "role" : "Team Member",
-        "content" : "Devin is a sophmore at TJHSST and is in his 1st year of FTC. His first experience in FIRST was in 4th grade when he participated in FLL. Ever since, he loved to colaborate in teams and working together to create a final product. 9th grade, he participated in Botball robotics, and now, FTC. In his free time, he likes to study math , develop websites, and create simulations.",
+        "content" : "Devin is a sophmore at TJHSST and is in his 1st year of FTC. His first experience in FIRST was in 4th grade when he participated in FLL. Ever since, he loved to colaborate in teams and working together to create a final product. 9th grade, he participated in Botball robotics, and now, FTC. In his free time, he likes to study math , develop websites, and create simulations. He is the developer for this FTC Website",
         "image" : "/img/routes/team/members/devin.jpg",
         "github" : "https://github.com/UsernameDP"
     },
@@ -65,5 +65,11 @@
         "role" : "Team Member",
         "content" : "Working with robotics teams and several game challenges over the years, Kara, now a sophmore, has done so due to her interests in STEM and her love for the dynamics of robotics competitons. As part of her FIRST year of FTC, she is excited to contribute her skills to create fierce game-changing robots and to inspire others to do so too.",
         "image" : "/img/routes/team/members/kara.jpg"
+    },
+    {
+        "name" : "Christoph",
+        "role" : "Team Member",
+        "content" : "Christoph is a sophomore in his second year of FIRST. He discovered robotics during his Freshman year when he joined his previous school's FRC team and found the club gradually becoming a big part of his life. This year, Christoph wanted to continue his FIRST journey and decided to join Robot Uprising. He also enjoys learning about other STEM fields, such as physics, watching movies, and wrestling, even if he lacks the talent for it.        ",
+        "image" : "/img/routes/team/members/christoph.jpg"
     }
 ]
