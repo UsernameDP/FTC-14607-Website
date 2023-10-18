@@ -14,6 +14,7 @@ Make sure you have node & npm installed. You can download them from [here](https
 - [x] TitleSection
 - [x] CardGrid
 - [x] Card
+- [x] Carousel Images
 
 ### header & footer
 
