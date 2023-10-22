@@ -15,27 +15,40 @@ function Footer() {
       </section>
       {/* Bottom */}
       <section className="w-full bg-red-700">
-        <section className="flex items-center h-20 px-20 gap-5 mx-auto max-w-8xl">
-          <a
-            href="https://github.com/UsernameDP/FTC-14607-Website"
-            target="_blank"
-          >
-            <img
-              src={"/svg/footer/github.svg"}
-              alt="github_svg"
-              className="w-7"
-            />
-          </a>
-          <a
-            href="https://twitter.com/ftc14607"
-            target="_blank"
-          >
-            <img
-              src={"/svg/footer/twitter.svg"}
-              alt="github_svg"
-              className="w-7"
-            />
-          </a>
+        <section className="flex items-center justify-between h-20 px-20 mx-auto max-w-8xl">
+          <div className="flex gap-5">
+            <a
+              href="https://github.com/UsernameDP/FTC-14607-Website"
+              target="_blank"
+            >
+              <img
+                src={"/svg/footer/github.svg"}
+                alt="github_svg"
+                className="w-7"
+              />
+            </a>
+            <a
+              href="https://twitter.com/ftc14607"
+              target="_blank"
+            >
+              <img
+                src={"/svg/footer/twitter.svg"}
+                alt="github_svg"
+                className="w-7"
+              />
+            </a>
+          </div>
+
+          <div className="flex">
+            <p className="mr-1">Made with &hearts; by</p>
+            <a
+              href="https://github.com/UsernameDP"
+              className="relative hover:font-bold"
+              target="_blank"
+            >
+              Devin Park
+            </a>
+          </div>
         </section>
       </section>
     </footer>
