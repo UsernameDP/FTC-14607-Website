@@ -5,6 +5,7 @@ import cardData from "./public/data/cards.json";
 import TitleSection from "../../components/titleSection";
 import InfoCard from "../../components/infoCard";
 import InfoCardGrid from "../../components/infoCardGrid";
+import Donations from "./components/donations";
 
 function Sponsorship() {
   return (
@@ -29,6 +30,7 @@ function Sponsorship() {
           );
         })}
       </InfoCardGrid>
+      <Donations />
     </React.Fragment>
   );
 }
