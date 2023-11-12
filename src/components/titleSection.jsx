@@ -1,7 +1,9 @@
 import React from "react";
 import Section from "./section";
+import Carousel from "./titleCarousel";
+import TitleCarousel from "./titleCarousel";
 
-function TitleSection({ name, content, image }) {
+function TitleSection({ name, content, images }) {
   return (
     <Section>
       <section className="flex flex-col-reverse md:flex-row w-full h-3/6 mx-auto py-28 p-10 align-middle gap-0 md:gap-10 xl:gap-28">
@@ -13,13 +15,17 @@ function TitleSection({ name, content, image }) {
             {content}
           </p>
         </section>
-        <section className="flex flex-col justify-center items-center">
-          {image != undefined ? (
-            <img
-              src={image}
-              alt={image}
-              className="aspect-auto w-full max-w-[35rem] min-w-[18rem]"
-            />
+        <section className="relative flex flex-col justify-center items-center">
+          {images != undefined ? (
+            !Array.isArray(images) ? (
+              <img
+                src={images}
+                alt={images}
+                className="aspect-auto w-full max-w-[35rem] min-w-[18rem]"
+              />
+            ) : (
+              <TitleCarousel imgSrcs={images} />
+            )
           ) : null}
         </section>
       </section>
