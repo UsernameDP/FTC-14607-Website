@@ -6,13 +6,15 @@ function TitleCarousel({ imgSrcs }) {
   return (
     <div className="max-w-[35rem] min-w-[18rem] flex">
       <Carousel
-        interval={2500}
+        interval={3000}
         autoPlay
         infiniteLoop
         showThumbs={false}
         showIndicators={false}
         showArrows={false}
         showStatus={false}
+        swipeable={true}
+        stopOnHover={true}
       >
         {imgSrcs.map((imgSrc, index) => {
           return (
