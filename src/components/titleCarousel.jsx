@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function TitleCarousel({ imgSrcs }) {
   return (
-    <div className="max-w-[35rem] min-w-[18rem] flex">
+    <div className="max-w-[35rem] min-w-[18rem] flex justify-center items-center">
       <Carousel
         interval={3000}
         autoPlay
