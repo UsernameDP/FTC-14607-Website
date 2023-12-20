@@ -6,7 +6,7 @@ import TitleCarousel from "./titleCarousel";
 function TitleSection({ name, content, images }) {
   return (
     <Section>
-      <section className="flex flex-col-reverse md:flex-row w-full h-3/6 mx-auto py-28 p-10 align-middle gap-0 md:gap-10 xl:gap-28">
+      <section className="flex flex-col-reverse md:flex-row w-full h-3/6 mx-auto py-12 px-10 align-middle gap-0 md:gap-10 xl:gap-28">
         <section className="text-left flex flex-col gap-5">
           <h2 className="text-5xl xl:text-6xl font-Roboto font-medium max-w-lg pt-14">
             {name}
@@ -15,8 +15,10 @@ function TitleSection({ name, content, images }) {
             {content}
           </p>
         </section>
-        <section className="relative flex flex-col justify-center items-center">
-          {images != undefined ? (
+        <section
+          className={`relative flex-col justify-center items-center flex`}
+        >
+          {images !== undefined ? (
             !Array.isArray(images) ? (
               <img
                 src={images}

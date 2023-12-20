@@ -18,7 +18,7 @@ function Team() {
         content={
           "Our team of highly skilled thinkers, innovators, and engineers."
         }
-        image={"/img/routes/team/team_titleSection.jpg"}
+        images={"/img/routes/team/team_titleSection.jpg"}
       />
 
       <ActiveMembersGrid>

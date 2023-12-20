@@ -6,6 +6,7 @@ import TitleSection from "../../components/titleSection";
 import InfoCard from "../../components/infoCard";
 import InfoCardGrid from "../../components/infoCardGrid";
 import Donations from "./components/donations";
+import PhotoBanner from "../../components/PhotoBanner";
 
 function Sponsorship() {
   return (
@@ -15,7 +16,18 @@ function Sponsorship() {
         content={
           "Running an FTC Team is expensive, with costs running as high as $20,000 dollars. See how you can help our team compete, and empower the next generation of innovators."
         }
-        images={"/img/routes/sponsorship/sponsorship_titleSection.png"}
+      />
+
+      <PhotoBanner
+        images={[
+          "/img/routes/sponsorship/sponsors/bae_systems.png",
+          "/img/routes/sponsorship/sponsors/go_builda.png",
+          "/img/routes/sponsorship/sponsors/jane_street.png",
+          "/img/routes/sponsorship/sponsors/rcube.png",
+          "/img/routes/sponsorship/sponsors/send_cut_send.png",
+          "/img/routes/sponsorship/sponsors/tjab.jpg",
+          "/img/routes/sponsorship/sponsors/tjpf.png"
+        ]}
       />
 
       <InfoCardGrid>
