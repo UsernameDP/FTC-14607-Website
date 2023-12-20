@@ -7,7 +7,7 @@ function PhotoBanner({ images }) {
       <Marquee
         play={true}
         direction={"left"}
-        speed={20}
+        speed={30}
         loop={0}
       >
         {images.map((image, index) => {
@@ -16,7 +16,7 @@ function PhotoBanner({ images }) {
               key={index}
               src={image}
               alt={image}
-              className="aspect-auto max-w-[100px] mx-7 object-cover"
+              className="aspect-auto max-w-[200px] mx-7 object-cover"
             />
           );
         })}
