@@ -5,6 +5,7 @@ import cardData from "./public/data/cards.json";
 import TitleSection from "../../components/titleSection";
 import InfoCard from "../../components/infoCard";
 import InfoCardGrid from "../../components/infoCardGrid";
+import Banner from "../../components/banner";
 
 import Accomplishments from "./components/accomplishments";
 
@@ -28,7 +29,6 @@ function Index() {
           "/img/routes/index/9.jpg"
         ]}
       />
-
       <InfoCardGrid>
         {cardData.map((data, index) => {
           return (
@@ -41,7 +41,6 @@ function Index() {
           );
         })}
       </InfoCardGrid>
-
       <Accomplishments />
     </React.Fragment>
   );

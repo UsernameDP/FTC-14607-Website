@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
+import Banner from "../components/banner";
 import { useLocation } from "react-router-dom";
 
 function Header() {
   const [mobileMenuIsOpen, setMobileMenu] = useState(false);
   const location = useLocation();
+  
+  console.log(location);
 
   const toggleMobileMenu = () => {
     setMobileMenu(!mobileMenuIsOpen);
@@ -26,6 +29,7 @@ function Header() {
 
   return (
     <header className="left-0 right-0 top-0 z-10 bg-white fixed shadow-sm w-full">
+      {location.pathname==='/' ? <Banner/> : null}
       <section className="px-10 flex flex-row mx-auto max-w-7xl items-center justify-between p-4 text-black">
         <a
           href="/"

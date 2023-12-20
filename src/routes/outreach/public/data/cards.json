@@ -1,12 +1,17 @@
 [
     {
         "name" : "STEAMOLOGY StemFest",
-        "content" : "Superintendent Reid came to visit !! 2022 StemFest This year, our FTC team partook in the 2022 Steamology Stem Fest.…",
+        "content" : "Superintendent Reid came to visit !! 2022 StemFest This year, our FTC team partook in the 2022 Steamology Stem Fest...",
         "href" : "/outreach/steamology"
     } ,
     {
         "name" : "2020 National Advocacy Conference",
         "content" : "Will be updated soon !",
         "href" : "/outreach/nac"
+    },
+    {
+        "name" : "2023 Durga Temple Center Demos",
+        "content" : "Durga Temple Demos and workshops...",
+        "href" : "/outreach/durga"
     }
 ]
