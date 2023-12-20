@@ -15,7 +15,6 @@ import Team from "./routes/team/team.jsx";
 import About from "./routes/about/about.jsx";
 import Robots from "./routes/robots/robots.jsx";
 import Gur from "./routes/growing-up-with-robots/gur.jsx";
-import Outreach from "./routes/outreach/outreach.jsx";
 import Club from "./routes/club/club.jsx";
 import Contact from "./routes/contact/contact.jsx";
 import InvalidRoute from "./routes/404/404.jsx";
@@ -90,22 +89,6 @@ function App() {
             <PublicMarkdown
               underWhichPublicDir={"md/routes"}
               parentRoute={"growing-up-with-robots"}
-              paramRouteName={"infoDoc"}
-            />
-          }
-        />
-
-        {/* Outreach */}
-        <Route
-          path="/outreach"
-          element={<Outreach />}
-        />
-        <Route
-          path="/outreach/:infoDoc"
-          element={
-            <PublicMarkdown
-              underWhichPublicDir={"md/routes"}
-              parentRoute={"outreach"}
               paramRouteName={"infoDoc"}
             />
           }

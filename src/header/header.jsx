@@ -22,7 +22,6 @@ function Header() {
     "About",
     "Robots",
     "Growing-Up-With-Robots",
-    "Outreach",
     "Club",
     "Contact"
   ];
