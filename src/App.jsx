@@ -16,6 +16,7 @@ import About from "./routes/about/about.jsx";
 import Robots from "./routes/robots/robots.jsx";
 import Gur from "./routes/growing-up-with-robots/gur.jsx";
 import Club from "./routes/club/club.jsx";
+import Donate from "./routes/donate/donate.jsx";
 import Contact from "./routes/contact/contact.jsx";
 import InvalidRoute from "./routes/404/404.jsx";
 
@@ -108,6 +109,12 @@ function App() {
               paramRouteName={"infoDoc"}
             />
           }
+        />
+
+        {/* Donate */}
+        <Route
+          path="/donate"
+          element={<Donate />}
         />
 
         {/* Contact */}

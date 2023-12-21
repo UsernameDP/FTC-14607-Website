@@ -6,8 +6,6 @@ function Header() {
   const [mobileMenuIsOpen, setMobileMenu] = useState(false);
   const location = useLocation();
   
-  console.log(location);
-
   const toggleMobileMenu = () => {
     setMobileMenu(!mobileMenuIsOpen);
   };
@@ -23,6 +21,7 @@ function Header() {
     "Robots",
     "Growing-Up-With-Robots",
     "Club",
+    "Donate",
     "Contact"
   ];
 
