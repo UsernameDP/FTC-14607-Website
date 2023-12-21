@@ -48,6 +48,14 @@ function Footer() {
             >
               Devin Park
             </a>
+            <a>&nbsp;and&nbsp;</a>
+            <a
+              href="https://github.com/2024eli"
+              className="relative hover:font-bold"
+              target="_blank"
+            >
+              Evelyn Li
+            </a>
           </div>
         </section>
       </section>
