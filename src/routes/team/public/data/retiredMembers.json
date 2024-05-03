@@ -1,5 +1,35 @@
 [
     {
+        "name" : "Evelyn Li",
+        "role" : "Captain",
+        "content" : "Evelyn is a senior in her third year of FIRST, joining after discovering CAD in a summer camp held by Team 14607. Evelyn enjoys programming and CAD-ing as well as the challenge and learning opportunities that FTC has to offer. She is also an avid fan of National Geographic magazines (she collects them!) and physics. Evelyn enjoys art and is an editorial artist for tjTODAY– TJ’s student newspaper. She hopes her final year will go out with a bang!",
+        "image" : "/img/routes/team/members/evelyn.jpg"
+    },
+    {
+        "name" : "Felix Howton",
+        "role" : "Business and Outreach Lead",
+        "content" : "Felix is a senior in his fourth year of FIRST. In 8th grade, he discovered his love for robotics on his middle school FTC team while designing, constructing, and driving his team’s robot. Felix joined the team to dive deeper into robotics and to help the community learn about STEM. He is on the school’s history bowl team and his class’s class council. Felix loves spending his free time playing various sports including soccer, basketball, and ultimate frisbee. He also enjoys reading, and playing video games.",
+        "image" : "/img/routes/team/members/felix.jpg"
+    },
+    {
+        "name" : "Aiden Cheong",
+        "role" : "Team Member",
+        "content" : "Aiden is a senior in his 2nd year of FTC. He joined FTC team 14607 to join the unique community and gain new experiences in robotics. He found his passion for STEM through programming and got interested in robotics over the summer. In his free time, Aiden likes to play ice hockey and basketball. He also enjoys playing video games.",
+        "image" : "/img/routes/team/members/aiden.jpg"
+    },
+    {
+        "name" : "Lindsay Hwang",
+        "role" : "Team Member",
+        "content" : "Lindsay is a senior at TJHSST and this is her second year of FTC. She joined because of her interest in the programming aspect of robotics as well as seeing all the videos of the FIRST competitions. She enjoys programming and using CAD, and in her free time, she likes to run track, sing, and play lacrosse.",
+        "image" : "/img/routes/team/members/lindsay.jpg"
+    },
+    {
+        "name" : "Tanvi Pedireddi",
+        "role" : "Team Member",
+        "content" : "Tanvi is a senior and this is her fifth year in FIRST, joining because of a Facebook post and an aspiring interest in robotics and coding. She is on the school’s Lincoln Douglas debate team, and her hobbies include coding, singing, and drawing. She is looking forward to junior year.",
+        "image" : "/img/routes/team/members/tanvi.jpg"
+    },
+    {
         "name" : "Winston Gan",
         "role" : "Captain",
         "image" : "/img/routes/team/members/winston.jpg"
