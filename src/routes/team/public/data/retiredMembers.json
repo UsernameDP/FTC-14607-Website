@@ -6,6 +6,23 @@
         "image" : "/img/routes/team/members/evelyn.jpg"
     },
     {
+        "name" : "Winston Gan",
+        "role" : "Captain",
+        "image" : "/img/routes/team/members/winston.jpg"
+    },
+    {
+        "name" : "AJ Seo",
+        "role" : "Captain",
+        "image" : "/img/routes/team/members/aj.jpg",
+        "github" : "https://github.com/aseo921"
+    },
+    {
+        "name" : "Charlie Wu",
+        "role" : "Captain",
+        "image" : "/img/routes/team/members/charlie.jpg",
+        "github" : "https://github.com/cwu159"
+    },
+    {
         "name" : "Felix Howton",
         "role" : "Business and Outreach Lead",
         "content" : "Felix is a senior in his fourth year of FIRST. In 8th grade, he discovered his love for robotics on his middle school FTC team while designing, constructing, and driving his team’s robot. Felix joined the team to dive deeper into robotics and to help the community learn about STEM. He is on the school’s history bowl team and his class’s class council. Felix loves spending his free time playing various sports including soccer, basketball, and ultimate frisbee. He also enjoys reading, and playing video games.",
@@ -28,23 +45,6 @@
         "role" : "Team Member",
         "content" : "Tanvi is a senior and this is her fifth year in FIRST, joining because of a Facebook post and an aspiring interest in robotics and coding. She is on the school’s Lincoln Douglas debate team, and her hobbies include coding, singing, and drawing. She is looking forward to junior year.",
         "image" : "/img/routes/team/members/tanvi.jpg"
-    },
-    {
-        "name" : "Winston Gan",
-        "role" : "Captain",
-        "image" : "/img/routes/team/members/winston.jpg"
-    },
-    {
-        "name" : "AJ Seo",
-        "role" : "Captain",
-        "image" : "/img/routes/team/members/aj.jpg",
-        "github" : "https://github.com/aseo921"
-    },
-    {
-        "name" : "Charlie Wu",
-        "role" : "Captain",
-        "image" : "/img/routes/team/members/charlie.jpg",
-        "github" : "https://github.com/cwu159"
     },
     {
         "name" : "Dev Patel",
