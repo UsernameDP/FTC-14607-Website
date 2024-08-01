@@ -47,5 +47,11 @@
         "role" : "Team Member",
         "content" : "Shawn is a sophomore in his 1st year of FTC. His passion for robotics was first discovered by participating in VEX in 8th grade, he joined robot uprising to meet unique people and gain new experiences in robotics. In his free time, Shawn enjoys solving the Rubik’s cube and playing video games.",
         "image" : "/img/routes/team/members/shawn.jpg"
+    },
+    {
+        "name" : "Dhanvin",
+        "role" : "Team Member",
+        "content" : "Dhanvin is currently a sophomore in his second year at FTC. His journey with FIRST began 8 years ago when he joined FLL in 1st grade. His passion for robotics and teamwork led him to begin a FTC team during his time in middle school. In addition to being part of FTC, he is also a coach for an FLL team that achieved remarkable success by competing at the World Championships in the past year. Outside of robotics, Dhanvin enjoys participating in basketball, badminton, and various computer-vision projects.",
+        "image" : "/img/routes/team/members/dhanvin.jpg"
     }
 ]
