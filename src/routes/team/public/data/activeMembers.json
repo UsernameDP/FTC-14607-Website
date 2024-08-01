@@ -41,5 +41,11 @@
         "role" : "Team Member",
         "content" : "Christoph is a sophomore in his second year of FIRST. He discovered robotics during his Freshman year when he joined his previous school's FRC team and found the club gradually becoming a big part of his life. This year, Christoph wanted to continue his FIRST journey and decided to join Robot Uprising. He also enjoys learning about other STEM fields, such as physics, watching movies, and wrestling, even if he lacks the talent for it.        ",
         "image" : "/img/routes/team/members/christoph.jpg"
+    },
+    {
+        "name": "Shawn",
+        "role" : "Team Member",
+        "content" : "Shawn is a sophomore in his 1st year of FTC. His passion for robotics was first discovered by participating in VEX in 8th grade, he joined robot uprising to meet unique people and gain new experiences in robotics. In his free time, Shawn enjoys solving the Rubik’s cube and playing video games.",
+        "image" : "/img/routes/team/members/shawn.jpg"
     }
 ]
