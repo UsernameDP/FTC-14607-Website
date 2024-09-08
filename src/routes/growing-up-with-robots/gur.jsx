@@ -35,7 +35,7 @@ function Gur() {
         <br></br>
         <i>
           {
-            "Initiative created by Kathy Li ('20); Non-profit created by Evelyn Li ('24); Currently led by Evelyn Li ('24) and Felix Howton ('24)."
+            "Initiative created by Kathy Li ('20); Non-profit created by Akul Dixit ('25); Currently led by Shirdi Palle ('26)."
           }
         </i>
       </Section>
