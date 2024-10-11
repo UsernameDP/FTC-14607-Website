@@ -35,7 +35,7 @@ function Gur() {
         <br></br>
         <i>
           {
-            "Nonprofit founded by Akul Dixit ('25) and Shirdi Palle ('26)."
+            "Nonprofit founded by Akul Dixit ('25), Co-led by Akul Dixit ('25) and Shirdi Palle ('26)."
           }
         </i>
       </Section>
